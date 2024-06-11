@@ -50,3 +50,15 @@ php -S localhost:8000 -t . phpRouter/router.php
 
 ドキュメントルートを参照することでincludeできるようになります。
 
+## テスト
+
+`phpRouter/router.php` のテストを行うためのコマンドです。
+
+```
+php test/router.test.php
+```
+
+テスト内容
+
+* リクエストされたファイルのパスを取得する
+* ファイルの内容を取得してPHPコードを実行する
